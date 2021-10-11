@@ -911,3 +911,29 @@ form {
 	color: white;
 	box-shadow: 2px 0px 0px #00cc9996;
 }
+.float-m {
+	position: fixed;
+    padding: 10px 20px;
+    bottom: 100px;
+    right: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 10px 8px 0px #181a1996;
+	text-decoration: none;
+	transition: all .5s
+}
+
+.my-float-m {
+	margin-top: 22px;
+	text-decoration: none;
+
+}
+.my-float-m:hover{
+	color: white;
+}
+.float-m:hover{
+	color: white;
+	box-shadow: 2px 0px 0px #00000096;
+}
