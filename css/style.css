@@ -887,17 +887,27 @@ form {
 
 .float {
 	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 40px;
-	right: 40px;
-	background-color: #0C9;
-	color: #FFF;
-	border-radius: 50px;
-	text-align: center;
-	box-shadow: 2px 2px 3px #999;
+    padding: 10px 20px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 10px 8px 0px #00cc9996;
+	text-decoration: none;
+	transition: all .5s
 }
 
 .my-float {
 	margin-top: 22px;
+	text-decoration: none;
+
+}
+.my-float:hover{
+	color: white;
+}
+.float:hover{
+	color: white;
+	box-shadow: 2px 0px 0px #00cc9996;
 }
